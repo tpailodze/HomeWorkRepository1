@@ -231,6 +231,7 @@
 .main-bottom .wrapper {
      display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .main-bottom-container {
@@ -304,18 +305,104 @@
 .footer-top{
     width: 100%;
     background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.wrapper
-.footer--top-container
-.footer-first
-.footer-first h3
-.footer-first h2
-.footer-second
-.footer-second h2
-.footer-second-ul
-.footer-second-ul li
-.footer-third
-.footer-third h3
+.footer-top .wrapper{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer--top-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-first, .footer-second, .footer-third, .footer-forth{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.footer-first h3{
+    width:100%;
+    font-size: 16px;
+    font-weight: normal;
+    color:#d0d0d0;
+    padding-bottom: 15px;
+}
+.footer-first h2{
+    width:100%;
+    font-size: 14px;
+    color: #679e7e
+}
+.footer-first-note{
+    font-size: 12px;
+    color:#474747;
+    text-align: center;
+    padding-top:5px
+}
+.footer-first-note a{
+    color:#3f5b4c;
+    font-weight: bold;
+}
+.footer-first-date{
+    width:100%;
+    color:#727272;
+    font-size: 12px;
+    text-align: left;
+    padding:5px;
+}
+.footer-first-text {
+    width:100%;
+    font-size: 14px;
+    color:#727272;
+    text-align: left;
+    padding:5px;
+}
+.footer-first-form{
+    width:100%;
+    color:#394e3f;
+    text-align: left;
+    padding: 5px
+}
+.footer-second h2{
+    font-size: 16px;
+    color: #d0d0d0;
+}
+
+.footer-second-ul{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-second-ul li{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    display: block;
+
+}
+.footer-third{
+
+}
+.footer-third h3{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .footer-third-text
 .footer-forth
 .footer-forth input
